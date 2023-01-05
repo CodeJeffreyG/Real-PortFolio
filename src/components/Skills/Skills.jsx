@@ -14,7 +14,7 @@ const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-4xl font-bold inline border-b-4 border-[#2E4C78] ">
             Skills
           </p>
           <p className="py-4">// These are the technologies I've worked with</p>
@@ -55,7 +55,7 @@ const Skills = () => {
               src={DataStructures}
               alt="HTML icon"
             />
-            <p className="my-4">Data Structures</p>
+            <p className="my-4">DATA STRUCTURES & ALGORITHMS</p>
           </div>
         </div>
       </div>
