@@ -5,7 +5,7 @@ export const data = [
     id: 1,
     name: "React JS Application",
     image: MemeGen,
-    github: "",
+    github: "https://github.com/CodeJeffreyG/MemeGenRevamped",
     live: "",
   },
   {
