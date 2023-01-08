@@ -54,7 +54,7 @@ const Navbar = () => {
       </ul>
 
       {/* hamburger bar */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="sm:cursor-pointer md:hidden z-10">
         {nav ? <FaTimes /> : <FaBars />}
       </div>
 
@@ -67,11 +67,31 @@ const Navbar = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl select-none">Home</li>
-        <li className="py-6 text-4xl select-none">About</li>
-        <li className="py-6 text-4xl select-none">Skills</li>
-        <li className="py-6 text-4xl select-none">Work</li>
-        <li className="py-6 text-4xl select-none">Contact</li>
+        <li className="py-6 text-4xl select-none">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl select-none">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl select-none">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl select-none">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl select-none">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* social icons */}
