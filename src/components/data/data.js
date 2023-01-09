@@ -7,7 +7,7 @@ export const data = [
     name: "Create Your Own Custom Meme!",
     image: MemeGen,
     github: "https://github.com/CodeJeffreyG/MemeGenRevamped",
-    live: "",
+    live: "https://63bb8d4d60c3011f1535bc27--fantastic-cascaron-8655f0.netlify.app/",
   },
   {
     id: 2,
@@ -15,5 +15,5 @@ export const data = [
     image: MovieQuery,
     github: "https://github.com/CodeJeffreyG/MovieSearchRevamped",
     live: "",
-  }
+  },
 ];
