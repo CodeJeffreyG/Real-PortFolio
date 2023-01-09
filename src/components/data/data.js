@@ -15,19 +15,5 @@ export const data = [
     image: MovieQuery,
     github: "https://github.com/CodeJeffreyG/MovieSearchRevamped",
     live: "",
-  },
-  {
-    id: 3,
-    name: "React JS Application",
-    image: MemeGen,
-    github: "",
-    live: "",
-  },
-  {
-    id: 4,
-    name: "React JS Application",
-    image: MemeGen,
-    github: "",
-    live: "",
-  },
+  }
 ];
