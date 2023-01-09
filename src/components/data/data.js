@@ -14,6 +14,6 @@ export const data = [
     name: "List Of Movies Based On Users Query!",
     image: MovieQuery,
     github: "https://github.com/CodeJeffreyG/MovieSearchRevamped",
-    live: "https://63bb8ebf0e674d20fe54596e--delightful-torrone-9c0ee7.netlify.app/",
+    live: "https://63bb90077d37b42283dc4f19--admirable-parfait-6694ab.netlify.app/",
   },
 ];
