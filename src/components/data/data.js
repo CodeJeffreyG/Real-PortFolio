@@ -1,5 +1,6 @@
 import MemeGen from "../assets/projects/memeimg.png";
 import MovieQuery from "../assets/projects/moviequery.png";
+import Tenzies from "../assets/projects/tenzies.png";
 
 export const data = [
   {
@@ -15,5 +16,12 @@ export const data = [
     image: MovieQuery,
     github: "https://github.com/CodeJeffreyG/MovieSearchRevamped",
     live: "https://63bb90077d37b42283dc4f19--admirable-parfait-6694ab.netlify.app/",
+  },
+  {
+    id: 3,
+    name: "Fun Tenzies Game!",
+    image: Tenzies,
+    github: "https://github.com/CodeJeffreyG/Tenzies",
+    live: "https://bejewelled-sorbet-d88f79.netlify.app/",
   },
 ];
