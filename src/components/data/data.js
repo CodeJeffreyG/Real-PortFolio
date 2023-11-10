@@ -1,6 +1,7 @@
 import MemeGen from "../assets/projects/memeimg.png";
 import MovieQuery from "../assets/projects/moviequery.png";
 import Tenzies from "../assets/projects/tenzies.png";
+import PFV from "../assets/projects/PFV.png";
 
 export const data = [
   {
@@ -23,5 +24,12 @@ export const data = [
     image: Tenzies,
     github: "https://github.com/CodeJeffreyG/Tenzies",
     live: "https://bejewelled-sorbet-d88f79.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "BFS visualized",
+    image: PFV,
+    github: "https://github.com/CodeJeffreyG/workingPFV",
+    live: "https://cosmic-cannoli-584a4f.netlify.app/",
   },
 ];
